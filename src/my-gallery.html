@@ -1,0 +1,99 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/site-card/site-card.html">
+<link rel="import" href="../bower_components/app-layout/app-box/app-box.html">
+
+<dom-module id="my-gallery">
+
+    <link rel=import type="css" href="../styles/page-style.css">
+
+    <template>
+
+    <style>
+       .first {
+      --app-box-background-front-layer: {
+        background-image: url(/images/gallery-image.jpg);
+        padding-bottom: 120px;
+        margin-top: -40px;
+        height: 100%;
+      };
+    }
+    </style>
+     <app-box class="first">
+      <section>
+        <div id="sectiontext">
+          <h1>Gallery</h1>
+        </div>
+      </section>
+    </app-box>
+
+    <div id="textbox">
+      <p></p>
+      
+    </div>
+
+    <site-card 
+            title="Boho Weddings Gallery"
+            imageheight="250"
+            subtitle="Photographer - Nick Walker"
+            barcolor="#BCAAA4"
+            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/styled%2Fboho%2FPENGENNA-LORES-123.jpg?alt=media&token=ab9b245f-65e2-4f01-a914-70ad0babd17b"
+            link="/boho"
+          >        
+    </site-card>
+    <site-card 
+            title="City Chic Weddings Gallery"
+            imageheight="250"
+            subtitle="Photographer - Khalile Siddiqui"
+            barcolor="#BCAAA4"
+            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/styled%2Fcity%2FCWMU101115_159.jpg?alt=media&token=a06ea05a-0a0d-4221-a2d9-5ab9298e327c"
+            link="/city"
+          >        
+    </site-card>
+    <site-card 
+            title="Countryside Vintage Weddings Gallery"
+            imageheight="250"
+            subtitle="Photographer - Toby Lowe"
+            barcolor="#BCAAA4"
+            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/styled%2Fcountry%2FKernock_134.jpg?alt=media&token=81e96bc9-08f0-457c-9e2b-94d208134295"
+            link="/country"
+          >        
+    </site-card>
+    <site-card 
+            title="Elegant Brides Gallery"
+            imageheight="250"
+            subtitle="Photographer - Nick Walker"
+            barcolor="#BCAAA4"
+            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/styled%2Felegant%2FPENGENNA-LORES-226.jpg?alt=media&token=c03a44b7-e10c-4c94-ad0c-c9904ce7aaa2"
+            link="/elegant"
+          >        
+    </site-card>
+    <site-card 
+            title="Festival Weddings Gallery"
+            imageheight="250"
+            subtitle="Photographer - Nick Walker"
+            barcolor="#BCAAA4"
+            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/styled%2Ffestival%2FPENGENNA-LORES-600.jpg?alt=media&token=b66adcd9-76fe-4e8e-93ed-6ce7e736d35c"
+            link="/festival"
+          >        
+    </site-card>
+    <site-card 
+            title="Networking, Events & More Gallery"
+            imageheight="250"
+            subtitle="Photographers - Various"
+            barcolor="#BCAAA4"
+            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/spare%2Fcornwall_wed_meetup-89.jpg?alt=media&token=a42e8c32-7633-482c-b366-37ee1f26ba9e"
+            link="/more"
+          >        
+    </site-card>
+      
+  </template>
+
+    <script>
+        Polymer({
+
+            is: 'my-gallery'
+
+        });
+    </script>
+
+</dom-module>

@@ -1,0 +1,18 @@
+{
+    "entrypoint": "index.html",
+    "shell": "src/my-app.html",
+    "fragments": [
+        "src/my-home.html",
+        "src/my-aboutme.html",
+        "src/my-events.html",
+        "src/my-testimonials.html",
+        "src/my-gallery.html",
+        "src/my-contactme.html",
+        "src/my-services.html",
+        "src/my-boho.html",
+        "src/my-elegant.html",
+        "src/my-country.html",
+        "src/my-festival.html",
+        "src/my-more.html"
+    ]
+}

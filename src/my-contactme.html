@@ -1,0 +1,94 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/site-card/site-card.html">
+
+<dom-module id="my-contactme">
+
+    <link rel=import type="css" href="../styles/page-style.css">
+
+    <template>
+
+      <style>
+       .first {
+      --app-box-background-front-layer: {
+        background-image: url(/images/contact-me.jpg);
+        padding-bottom: 120px;
+        margin-top: -40px;
+        height: 100%;
+      };
+    }
+    </style>
+     <app-box class="first">
+      <section>
+        <div id="sectiontext">
+          <h1>Contact Me</h1>
+        </div>
+      </section>
+    </app-box>
+
+    <div id="textbox">
+      <p></p>
+      
+    </div>
+
+    <site-card 
+            title="Phone"
+            subtitle="Call Me"
+            barcolor="#BCAAA4"
+            link="tel:07900 954 051"
+            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/icons%2Fphone.svg?alt=media&token=6659005b-6714-4f51-9dca-004844de2831"
+            imagesizing="contain"
+            location="07900 954051"
+          >        
+    </site-card>
+    <site-card 
+            title="Facebook"
+            subtitle="Friend Me"
+            barcolor="#BCAAA4"
+            link="https://www.facebook.com/HazelAParsons/?fref=ts"
+            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/icons%2Ffacebook.svg?alt=media&token=c4ea8a30-2fd6-4f0e-b73e-db3831af8281"
+            imagesizing="contain"
+            location="fb/hazelparsons"
+          >        
+    </site-card>
+    <site-card 
+            title="Twitter"
+            subtitle="Follow Me"
+            barcolor="#BCAAA4"
+            link="https://twitter.com/hazelaparsons"
+            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/icons%2Ftwitter.svg?alt=media&token=ec7ed9aa-e56b-4a3d-b018-6479dac7de08"
+            imagesizing="contain"
+            location="twitter/hazelparsons"
+          >        
+    </site-card>
+    <site-card 
+            title="Email"
+            subtitle="Mail Me"
+            barcolor="#BCAAA4"
+            link="mailto:me@hazelparsons.com"
+            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/icons%2Femail.svg?alt=media&token=b27c110d-cff4-4094-b14c-ebab3d976774"
+            imagesizing="contain"
+            location="me@hazelparsons.com"
+          >        
+    </site-card>
+    <site-card 
+            title="Address"
+            subtitle="Find Me"
+            barcolor="#BCAAA4"
+            link="https://www.google.co.uk/maps/place/75+High+St,+Penzance+TR18+2SU/@50.1203865,-5.5404481,17z/data=!3m1!4b1!4m5!3m4!1s0x486ac4646969916b:0x6c9705cfb0322979!8m2!3d50.1203831!4d-5.5382594"
+            pic="https://firebasestorage.googleapis.com/v0/b/hazelparsons-d6eda.appspot.com/o/icons%2Fmap-marker.svg?alt=media&token=2097aefe-44c7-466f-bc72-3375179d41ea"
+            imagesizing="contain"
+            location="Cornwall"
+          >        
+    </site-card>
+
+  </template>
+
+    <script>
+        Polymer({
+
+            is: 'my-contactme'
+
+        });
+    </script>
+
+</dom-module>
